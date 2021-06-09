@@ -19,7 +19,7 @@ spec:
       containers:
         - env:
           - name: SPRING_CLOUD_CONFIG_SERVER_GIT_URI
-            value: https://github.com/nertecksmall/config
+            value: https://github.com/mercanetxpress/config
           - name: SPRING_CLOUD_CONFIG_SERVER_GIT_SKIPSSLVALIDATION
             value: 'true'
           name: config-server
